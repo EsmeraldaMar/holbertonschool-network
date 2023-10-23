@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays Listening Ports
+ss -tulnp | grep LISTEN
